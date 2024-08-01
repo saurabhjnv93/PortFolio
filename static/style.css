@@ -163,7 +163,7 @@ h3{
     gap: 10px;
     justify-content: space-around;
     align-items: center;
-    height: 94vh;
+    height: 94%;
     
     /* Ensure section covers full viewport height */
 }
@@ -278,7 +278,7 @@ h1 {
     flex-direction: column;
     flex: 66% 34%;
     gap: 0px;
-    height: 100vh;
+    height: 100%;
 }
 
 .lst {
