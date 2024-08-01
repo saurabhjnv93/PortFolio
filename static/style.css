@@ -135,8 +135,8 @@ main hr {
     font-weight: bold;
 }
 
-h3 {
-    color: #3a1447;
+.skl h4{
+    color: #490707;
 
 }
 
@@ -441,16 +441,16 @@ h1 {
         padding: 0 0 20px 0;
     }
     .skl{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
     .skl img{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
     .skl img:hover {
-        width: 110px;
-        height: 110px;
+        width: 100px;
+        height: 100px;
     }
 
     .prj {
