@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <style>
+       
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Saurabh's PortFolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#HomePage">Home</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection first" id="homePage">
+            <div class="leftSection">
+                <h3>Hi !, My name is <span class="my-name">Saurabh</span></h3>
+                <P>and i am learning</P><!-- Element to contain animated typing -->
+                <span id="element"></span>
+            </div>
+            <div class="rightSection"><img src="./photos/1.jpg" width="400" height="auto" alt=""></div>
+
+        </section>
+
+        <hr>
+        <h1 class="mySkill">Here are my <span id="element2">Skills...</span></h1>
+        <section class="skills second" id="skill">
+
+            <div class="skl skills1"><img src="./photos/2.png" width="150" height="150" alt="">
+                <h3>Python</h3>
+            </div>
+            <div class="skl skills2"><img src="./photos/3.png" width="150" height="150" alt="">
+                <h3>HTML</h3>
+            </div>
+            <div class="skl skills3"><img src="./photos/4.png" width="150" height="150" alt="">
+                <h3>CSS</h3>
+            </div>
+            <div class="skl skills4"><img src="./photos/5.png" width="150" height="150" alt="">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skl skills5"><img src="./photos/6.png" width="150" height="150" alt="">
+                <h3>Flask</h3>
+            </div>
+            <div class="skl skills6"><img src="./photos/7.png" width="150" height="150" alt="">
+                <h3>DataAnalysis</h3>
+            </div>
+            <div class="skl skills7"><img src="./photos/8.png" width="150" height="150" alt="">
+                <h3>PostgreSQL</h3>
+            </div>
+            <div class="skl skills8"><img src="./photos/9.png" width="150" height="150" alt="">
+                <h3>DSA</h3>
+            </div>
+
+        </section>
+
+        <hr>
+        
+        <section class="myProjects" id="projects">
+
+            <div class="cards card1 text">
+                <h2 class="myWorks">Find a showcase of all my projects here…</h2>
+                <ul>
+                    <li>I have a made a news article analyser and try to find some important insights from the article. I do text cleaning using RegEx, NLTK and using WebScrapping Urllib, BeautifulSoup.
+                    </li>
+                    <li>I create a news editor websites. Which can perfom some simple tasks like: Crop, Brightness and
+                        Contrast control, and Rotate.</li>
+                    <li>Sentiment Tagging of customer's reviews using RandomForestClassifier Machine Learning modle.
+                    </li>
+                    <li>Here is my PortFolio. I have made this using HTML, CSS and JavaScript</li>
+
+                </ul>
+            </div>
+
+            <div class="cards carousel">
+                <div class="button-container">
+                    <button class="carousel-btn prev">
+                        <h1>
+                            < </h1>
+                    </button>
+                </div>
+                <div class="card-container">
+                    <div class="carousel-wrapper">
+                        <div class="prj prj1">
+                            <h2 class="proj-name">Photo Editor</h2>
+                           <img src="./photos/photo_editior.png" width="100%" height="400" alt="" class="photo_editior _img_">
+                           <h4 class="proj-discription"><ul><li>Tech Used:</li><li>Flask in backend</li>
+                           <li>Pillow library </li>
+                           <li>HTML, CSS, JavaScript</li></ul></h4>
+                        </div>
+                        <div class="prj prj2">
+                           <h2 class="proj-name">New Analyzer</h2>
+                           <img src="./photos/news.jpg" width="100%" height="400" alt="" class="news-analyser _img_">
+                           <h4 class="proj-discription"><ul><li>Tech Used:</li>
+                           <li>RegEx, NLTK, BeautifulSoup, Urllib</li>
+                           <li>Flask in backend</li>
+                           <li>HTML and CSS</li></ul></h4>
+                        </div>
+                        <div class="prj prj3"><h2 class="proj-name">Sentiment Analyser</h2>
+                            <img src="./photos/Senti.png" width="100%" height="400" alt="" class="photo_editior _img_">
+                            <h4 class="proj-discription"><ul><li>Tech Use:</li>
+                            <li>ML Algorithm: RandomForestClassifier</li>
+                            <li>Text cleaning: RegEx, NLTK, Pandas</li>
+                            <li>HTML, CSS, JavaScript</li></ul></h4>
+                        </div>
+                        <div class="prj prj4">
+                            <h2 class="proj-name">This PortFolio</h2>
+                            <img src="./photos/port.png" width="100%" height="400" alt="" class="photo_editior _img_">
+                            <h4 class="proj-discription"><ul><li>Tech Used:</li>
+                            <li>HTML, CSS, JavaScript</li></ul></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="carousel-btn next">
+                        <h1>></h1>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+        <hr>
+    </main>
+    <div class="last-page">
+        <div class="lst work-experience">
+            <div class="wrk hackathon">
+                <div class="_text">
+                    <p>I actively participate in SU-Hackathon, a college hackathon where I collaborate with a team to
+                        develop innovative projects. Each event challenges us to create creative solutions and showcase
+                        our skills in a competitive and dynamic environment.</p>
+                </div>
+                <div class="_img"><img src="./photos/ha.png" width="500" height="200" alt=""></div>
+            </div>
+            <div class="wrk internship">
+                <div class="_img"><img src="./photos/da.png" width="400" height="150" alt=""></div>
+                <div class="_text">
+                    <p>During my internship, I tracked and analyzed customer sentiment to enhance company insights and
+                        improve service quality. I utilized various data analysis tools to monitor feedback trends and
+                        provide actionable insights for strategic decision-making. <br> <span id="intrn">Data Analyst
+                            Intern <i>@ Xyz.pvt.ltd</i></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="lst _footer" id="contacts">
+            <div class="footer-section">
+                <address>SRMCEM <br>
+                    Tiwarigang <br>
+
+                    lucknow, 226028 <br>
+                    Uttar Pradesh
+                </address>
+            </div>
+            <div class="copy-rght">&copy;Saurabh's Page
+            </div>
+            <div class="footer-section contact">
+                <ul>
+                    <li><a href=""><img src="./photos/linkedin.png" width="40" height="40" alt=""></a></a></li>
+                    <li><a href=""><img style="background-color:aliceblue;" src="./photos/X.png" width="40" height="40"
+                                alt=""></a></a></li>
+                    <li><a href=""><img src="./photos/email.png" width="40" height="40" alt=""></a></li>
+                    <li><a href=""><img src="./photos/I.png" width="40" height="40" alt=""></a></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Development', '&amp;', 'Data Structure and Algorithms..'],
+            typeSpeed: 50,
+        });
+
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const prevButton = document.querySelector('.carousel-btn.prev');
+            const nextButton = document.querySelector('.carousel-btn.next');
+            const carousel = document.querySelector('.carousel-wrapper');
+
+            let index = 0;
+            const items = document.querySelectorAll('.carousel-wrapper .prj');
+            const totalItems = items.length;
+
+            function updateCarousel() {
+                const offset = -index * 100; // Move the carousel to the left by index * 100%
+                carousel.style.transform = `translateX(${offset}%)`;
+            }
+
+            nextButton.addEventListener('click', () => {
+                index = (index + 1) % totalItems;
+                updateCarousel();
+            });
+
+            prevButton.addEventListener('click', () => {
+                index = (index - 1 + totalItems) % totalItems;
+                updateCarousel();
+            });
+
+            // Optional: Auto-slide every 3 seconds
+            setInterval(() => {
+                index = (index + 1) % totalItems;
+                updateCarousel();
+            }, 3000);
+        });
+    </script>
+
+</body>
+
+</html>

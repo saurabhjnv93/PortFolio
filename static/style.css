@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: rgba(168, 171, 219, 0.98);
+    color: white;
+}
+
+.first {
+    background-color: rgb(125, 125, 125);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(33, 54, 69);
+}
+
+.right,
+.left {
+    width: 40vw;
+
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+.right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right>ul li {
+    list-style: none;
+}
+
+.right ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: azure;
+}
+
+.right ul li a:hover {
+    text-decoration: none;
+    color: rgb(145, 243, 243);
+    font-size: 1.05rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.leftSection {
+    padding: 5px;
+   text-align: center;
+    font-size: 2rem;
+    color: rgb(255, 237, 213);
+}
+
+.leftSection span {
+    color: rgb(33, 64, 53);
+}
+
+.leftSection p {
+    padding: 10px;
+}
+.rightSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstSection {
+    padding: 50px 0 60px;
+}
+
+.firstSection img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgb(39, 40, 41);
+    opacity: 0.8;
+}
+main hr {
+    border: 1px solid #c6afaf;
+    width: 90%;
+    margin: 5px 0 0 4.5%;
+}
+
+/* Here are css for the second page (Showing all of my skills..)*/
+.skills {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 20px 5% 0 5%;
+}
+
+.skl {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.skl img {
+    border-radius: 50%;
+}
+
+.skl img:hover {
+    width: 160px;
+    height: 160px;
+}
+
+.mySkill {
+    margin: 0.2% 5% 0.5% 2%;
+    padding: 30px;
+    color: #471f55;
+    font-weight: bold;
+}
+h3{
+    color: #3a1447;
+
+}
+
+#element2 {
+    color: rgb(105, 105, 0);
+    font-style: italic;
+}
+
+
+/* My projects section*/
+.myWorks{
+    font-size: 3rem;
+    color:#4f0101cf;
+    font-weight: 200;
+}
+.myWorks:hover{
+    font-size: 3.1rem;
+}
+
+
+.myProjects {
+    padding: 20px;
+    display: flex;
+    flex:10vw 80vw 10vw;
+    position: relative;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 94vh;
+    
+    /* Ensure section covers full viewport height */
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    /* Full height of the section */
+}
+.cards ul li{
+    margin: 4.5%;
+font-size: 1.2rem;
+padding: 5px;
+color:#3a1447;
+text-align: justify;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 15vw 70vw 15vw;
+    width: 100vw;
+    height: 100%;
+    /* Full height of the section */
+}
+
+.card-container {
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Here is position relative*/
+}
+
+.carousel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.7s ease;
+    width: 100%;
+    /* Ensure it takes the full width of card-container */
+}
+
+.prj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex: 0 0 100%;
+    /* Each item takes 100% of the width of the carousel-wrapper */
+    height: 99vh;
+    /* Full height of the card-container */
+    box-sizing: border-box;
+}
+.proj-name{
+    text-align: center;
+    color: black;
+    margin: 5px;
+}
+h4{color:#3a1447;
+}
+.proj-discription{
+    margin-top: 10px;
+    text-align: justify;
+}
+.proj-discription ul li{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+._img_{
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.carousel-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 2rem;
+}
+
+
+
+h1 {
+    font-size: 2rem;
+    color: rgb(202, 199, 199);
+    font-weight: lighter;
+}
+
+
+.card-container:hover {
+    width: 80%;
+}
+
+/* Last webpage*/
+.last-page {
+    display: flex;
+    flex-direction: column;
+    flex: 66% 34%;
+    gap: 0px;
+    height: 100vh;
+}
+
+.lst {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    gap: 5px;
+}
+
+.wrk {
+    background-color:#28053566;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 45%;
+    border-radius: 20px;
+    margin-left: 4.5%;
+    box-shadow:
+        0 0 5px rgb(225, 246, 184),
+        /* Outer shadow */
+        inset 0 0 5px rgb(225, 246, 184);
+    /* Inner shadow */
+}
+
+._text {
+    width: 60%;
+    height: 100%;
+   
+}
+._text p{
+   padding: 10px;
+    color: #fbf7db;
+    font-size: 1.5rem;
+}
+._img{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+text-align: center;
+}
+._img img{
+    margin: 10px;
+    opacity: 0.8;
+   
+}
+
+.work-experience {
+    height: 66%;
+}
+#intrn{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+._footer {
+    background-color: rgb(33, 5, 38);
+    height: 34%;
+}
+
+/* Css for the footer*/
+._footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.copy-rght{
+    width: 20%;
+    align-self: self-end;
+    font-size: .6rem;
+    color:rgb(116, 105, 105);
+}
+.footer-section{
+    width: 30%;
+}
+.footer-section address{
+    line-height: 1.5;
+}
+.contact{
+    align-self: baseline;
+    margin-top: 20px;
+}
+.contact ul li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+.contact ul li a img:hover{
+    width: 42px;
+    height: 42px;
+}
+
+/* Responsiveness of the website*/
+@media (max-width:1000px){
+    
+    .first{
+        flex-direction: column;
+    }
+    .firstSection img{
+        width:500;
+        height: 500;
+    }
+    .myProjects{
+        flex-direction: column;
+        height: 100%;
+    }
+    .last-page{
+        height: 100%;
+    }
+    .wrk{
+        flex-direction: column;
+    }
+    ._text {
+        width: 95%;
+        height: 95%;
+        text-align: justify;
+        margin: 10px;
+        font-size: 1rem;
+      }
+    ._text p{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    ._img img {
+        opacity: 0.8;
+        width: 100%;
+        margin-top: 20px;
+      }
+    .prj{
+        height: 80%;
+    }
+    .right ul li a {
+        font-size: 1rem;
+    }
+    .right{
+        width: 40%;
+    }
+    .right,
+.left {
+   padding: 0 10px 0 10px;
+    width: 55%;
+
+}
+}
+@media (max-width:500px){
+    .firstSection img{
+        width: 90%;
+    }
+    header .right{
+        display: none;
+    }
+    .left{width: 100vw;
+        text-align: center;}
+        
+}
