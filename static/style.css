@@ -4,7 +4,7 @@
 }
 
 body {
-background-color: rgba(168, 171, 219, 0.98);
+    background-color: rgba(168, 171, 219, 0.98);
     color: white;
 }
 
@@ -62,7 +62,7 @@ nav {
 
 .leftSection {
     padding: 5px;
-   text-align: center;
+    text-align: center;
     font-size: 2rem;
     color: rgb(255, 237, 213);
 }
@@ -74,7 +74,8 @@ nav {
 .leftSection p {
     padding: 10px;
 }
-.rightSection{
+
+.rightSection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +90,7 @@ nav {
     box-shadow: 0 0 15px rgb(39, 40, 41);
     opacity: 0.8;
 }
+
 main hr {
     border: 1px solid #c6afaf;
     width: 90%;
@@ -132,7 +134,8 @@ main hr {
     color: #471f55;
     font-weight: bold;
 }
-h3{
+
+h3 {
     color: #3a1447;
 
 }
@@ -144,12 +147,13 @@ h3{
 
 
 /* My projects section*/
-.myWorks{
+.myWorks {
     font-size: 3rem;
-    color:#4f0101cf;
+    color: #4f0101cf;
     font-weight: 200;
 }
-.myWorks:hover{
+
+.myWorks:hover {
     font-size: 3.1rem;
 }
 
@@ -157,33 +161,33 @@ h3{
 .myProjects {
     padding: 20px;
     display: flex;
-    flex:10vw 80vw 10vw;
+    flex: 10vw 80vw 10vw;
     position: relative;
     flex-direction: row;
     gap: 10px;
     justify-content: space-around;
     align-items: center;
     height: 94%;
-    
+
     /* Ensure section covers full viewport height */
 }
 
-.card1{
+.card1 {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     align-items: center;
     width: 80%;
     height: 100%;
-    padding-left:4%;
     /* Full height of the section */
 }
-.cards ul li{
+
+.cards ul li {
     margin: 4.5%;
-font-size: 1.2rem;
-padding: 5px;
-color:#3a1447;
-text-align: justify;
+    font-size: 1.2rem;
+    padding: 5px;
+    color: #3a1447;
+    text-align: justify;
 }
 
 .carousel {
@@ -201,7 +205,8 @@ text-align: justify;
     width: 60%;
     height: 100%;
     overflow: hidden;
-    position: relative; /* Here is position relative*/
+    position: relative;
+    /* Here is position relative*/
 }
 
 .carousel-wrapper {
@@ -220,23 +225,28 @@ text-align: justify;
     border-radius: 10px;
     flex: 0 0 100%;
     /* Each item takes 100% of the width of the carousel-wrapper */
-    height: 99vh;
+    height: 99%;
     /* Full height of the card-container */
     box-sizing: border-box;
 }
-.proj-name{
+
+.proj-name {
     text-align: center;
     color: black;
     margin: 5px;
 }
-h4{color:#3a1447;
+
+h4 {
+    color: #3a1447;
 }
-.proj-discription{
+
+.proj-discription {
     margin-top: 10px;
     text-align: justify;
 }
-.proj-discription ul li{
-    
+
+.proj-discription ul li {
+
     list-style: none;
     margin: 0;
     padding: 0px;
@@ -244,7 +254,8 @@ h4{color:#3a1447;
     font-size: 0.9rem;
     font-weight: 300;
 }
-._img_{
+
+._img_ {
     border-radius: 10px;
     opacity: 0.8;
 }
@@ -275,10 +286,9 @@ h1 {
 
 /* Last webpage*/
 .last-page {
-    display: flex;
-    flex-direction: column;
-    flex: 66% 34%;
-    gap: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
     height: 100%;
 }
 
@@ -291,12 +301,12 @@ h1 {
 }
 
 .wrk {
-    background-color:#28053566;
+    background-color: #28053566;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90vw;
-    height: 45%;
+    height: 100%;
     border-radius: 20px;
     margin-left: 4.5%;
     box-shadow:
@@ -309,130 +319,157 @@ h1 {
 ._text {
     width: 60%;
     height: 100%;
-   
+
 }
-._text p{
-   padding: 10px;
+
+._text p {
+    padding: 10px;
     color: #fbf7db;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
-._img{
+
+._img {
     width: 40%;
     height: 100%;
     overflow: hidden;
-text-align: center;
+    text-align: center;
 }
-._img img{
+
+._img img {
     margin: 10px;
     opacity: 0.8;
-   
+
 }
 
 .work-experience {
-    height: 66%;
+    height: 100%;
 }
-#intrn{
+
+#intrn {
     color: rgb(0, 0, 0);
     font-size: 1rem;
 }
+
 ._footer {
     background-color: rgb(33, 5, 38);
-    height: 34%;
+    height: 100%;
 }
 
 /* Css for the footer*/
-._footer{
+._footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-.copy-rght{
+
+.copy-rght {
     width: 20%;
     align-self: self-end;
     font-size: .6rem;
-    color:rgb(116, 105, 105);
+    color: rgb(116, 105, 105);
 }
-.footer-section{
+
+.footer-section {
     width: 30%;
 }
-.footer-section address{
+
+.footer-section address {
     line-height: 1.5;
 }
-.contact{
+
+.contact {
     align-self: baseline;
     margin-top: 20px;
 }
+
 .contact ul li {
     display: inline;
     list-style: none;
     margin: 10px;
 }
-.contact ul li a img:hover{
+
+.contact ul li a img:hover {
     width: 42px;
     height: 42px;
 }
 
 /* Responsiveness of the website*/
-@media (max-width:1000px){
-    
-    .first{
+@media (max-width:1000px) {
+
+    .first {
         flex-direction: column;
     }
-    .firstSection img{
-        width:500;
+
+    .firstSection img {
+        width: 500;
         height: 500;
     }
-    .myProjects{
+
+    .myProjects {
         flex-direction: column;
         height: 100%;
     }
-    .last-page{
+
+    .last-page {
         height: 100%;
     }
-    .wrk{
+
+    .wrk {
         flex-direction: column;
     }
+
     ._text {
         width: 95%;
         height: 95%;
         text-align: justify;
         margin: 10px;
         font-size: 1rem;
-      }
-    ._text p{
+    }
+
+    ._text p {
         font-size: 1rem;
         padding: 10px;
     }
+
     ._img img {
         opacity: 0.8;
         width: 100%;
         margin-top: 20px;
-      }
-    .prj{
+    }
+
+    .prj {
         height: 80%;
     }
+
     .right ul li a {
         font-size: 1rem;
     }
-    .right{
+
+    .right {
         width: 40%;
     }
-    .right,
-.left {
-   padding: 0 10px 0 10px;
-    width: 55%;
 
+    .right,
+    .left {
+        padding: 0 10px 0 10px;
+        width: 55%;
+
+    }
 }
-}
-@media (max-width:500px){
-    .firstSection img{
+
+@media (max-width:500px) {
+    .firstSection img {
         width: 90%;
     }
-    header .right{
+
+    header .right {
         display: none;
     }
-    .left{width: 100vw;
-        text-align: center;}
-        
+
+    .left {
+        width: 100vw;
+        text-align: center;
+    }
+
 }
