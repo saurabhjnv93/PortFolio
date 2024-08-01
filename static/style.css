@@ -437,6 +437,21 @@ h1 {
         width: 100%;
         margin-top: 20px;
     }
+    .skills{
+        padding: 0 0 20px 0;
+    }
+    .skl{
+        width: 100px;
+        height: 100px;
+    }
+    .skl img{
+        width: 100px;
+        height: 100px;
+    }
+    .skl img:hover {
+        width: 110px;
+        height: 110px;
+    }
 
     .prj {
         height: 80%;
