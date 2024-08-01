@@ -175,6 +175,7 @@ h3{
     align-items: center;
     width: 80%;
     height: 100%;
+    padding-left:4%;
     /* Full height of the section */
 }
 .cards ul li{
