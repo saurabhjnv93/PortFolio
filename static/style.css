@@ -1,15 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+    font-family:Work Sans;
+    color:rgb(252, 248, 248);
+    font-weight: 500;
 }
 
 body {
-    background-color: rgba(168, 171, 219, 0.98);
+    background-color: #B7B597;
     color: white;
 }
 
 .first {
-    background-color: rgb(125, 125, 125);
+    background-color: #6B8A7A;
 }
 
 nav {
@@ -18,7 +21,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    background-color: rgb(33, 54, 69);
+    background-color: #254336;
 }
 
 .right,
@@ -28,7 +31,10 @@ nav {
 }
 
 .left {
-    font-size: 1.8rem;
+    font-size:2rem;
+    font-weight: bold;
+    font-family:Grape nuts;
+    color:#f8dddd;
 }
 
 .right ul {
@@ -131,35 +137,36 @@ main hr {
 .mySkill {
     margin: 0.2% 5% 0.5% 2%;
     padding: 30px;
-    color: #471f55;
+    color: #093e0c;
     font-weight: bold;
 }
 
 .skl h4{
-    color: #490707;
+    color: #174f1d;
+    font-weight: 600;
 
 }
 
 #element2 {
-    color: rgb(105, 105, 0);
+    color: rgb(88, 89, 20);
     font-style: italic;
 }
 
 
 /* My projects section*/
 .myWorks {
-    font-size: 3rem;
-    color: #4f0101cf;
-    font-weight: 200;
+    font-size: 2rem;
+    color: #931414;
+    font-weight: 500;
 }
 
 .myWorks:hover {
-    font-size: 3.1rem;
+    font-size: 2.1rem;
 }
 
 
 .myProjects {
-    padding: 20px;
+    padding: 10px 4.5% 10px 4.5%;
     display: flex;
     flex: 10vw 80vw 10vw;
     position: relative;
@@ -186,7 +193,7 @@ main hr {
     margin: 4.5%;
     font-size: 1.2rem;
     padding: 5px;
-    color: #3a1447;
+    color: #1a350b;
     text-align: justify;
 }
 
@@ -243,6 +250,7 @@ h4 {
 .proj-discription {
     margin-top: 10px;
     text-align: justify;
+
 }
 
 .proj-discription ul li {
@@ -250,9 +258,9 @@ h4 {
     list-style: none;
     margin: 0;
     padding: 0px;
-    color: black;
+    color: rgb(11, 60, 12);
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 ._img_ {
@@ -290,9 +298,11 @@ h1 {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
     height: 100%;
+    
 }
 
 .lst {
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -301,7 +311,8 @@ h1 {
 }
 
 .wrk {
-    background-color: #28053566;
+    
+    background-color:transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,7 +321,7 @@ h1 {
     border-radius: 20px;
     margin-left: 4.5%;
     box-shadow:
-        0 0 5px rgb(225, 246, 184),
+        0 0 5px rgb(145, 147, 140),
         /* Outer shadow */
         inset 0 0 5px rgb(225, 246, 184);
     /* Inner shadow */
@@ -323,9 +334,11 @@ h1 {
 }
 
 ._text p {
-    padding: 10px;
-    color: #fbf7db;
-    font-size: 1.3rem;
+    padding: 20px;
+    color: #1a3120;
+    font-size: 1.5rem;
+    font-family: Georgia,serif;
+  }
 }
 
 ._img {
@@ -441,16 +454,16 @@ h1 {
         padding: 0 0 20px 0;
     }
     .skl{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
     .skl img{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
     .skl img:hover {
-        width: 110px;
-        height: 110px;
+        width: 100px;
+        height: 100px;
     }
 
     .prj {
@@ -473,7 +486,7 @@ h1 {
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:550px) {
     .firstSection img {
         width: 90%;
     }
@@ -485,6 +498,7 @@ h1 {
     .left {
         width: 100vw;
         text-align: center;
+        font-size: 1.5rem;
     }
-
+   
 }
