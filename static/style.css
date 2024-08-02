@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     font-family:Work Sans;
+    color:rgb(252, 248, 248);
     font-weight: 500;
 }
 
 body {
     background-color: #B7B597;
+    
 }
 
 .first {
@@ -452,16 +454,16 @@ h1 {
         padding: 0 0 20px 0;
     }
     .skl{
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
     }
     .skl img{
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
     }
     .skl img:hover {
-        width: 125px;
-        height: 125px;
+        width: 100px;
+        height: 100px;
     }
 
     .prj {
