@@ -455,16 +455,16 @@ h1 {
         padding: 0 0 20px 0;
     }
     .skl{
-        width: 90px;
-        height: 90px;
+        width: 120px;
+        height: 120px;
     }
     .skl img{
-        width: 90px;
-        height: 90px;
+        width: 120px;
+        height: 120px;
     }
     .skl img:hover {
-        width: 100px;
-        height: 100px;
+        width: 125px;
+        height: 125px;
     }
 
     .prj {
@@ -491,7 +491,9 @@ h1 {
     .firstSection img {
         width: 90%;
     }
-
+.rightSection{
+    padding-top:50px;
+}
     header .right {
         display: none;
     }
